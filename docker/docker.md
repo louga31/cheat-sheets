@@ -126,7 +126,7 @@ COMMAND | DESCRIPTION
 
 COMMAND | DESCRIPTION
 ---|---
-`docker volume ls` | List all vol1umes
+`docker volume ls` | List all volumes
 `docker volume create VOLUME` | Create a volume
 `docker volume inspect VOLUME` | Show information (json formatted)
 `docker volume rm VOLUME` | Destroy a volume
