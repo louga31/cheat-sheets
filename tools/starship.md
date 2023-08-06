@@ -8,7 +8,14 @@ Documentation: [Configuration | Starship](https://starship.rs/config/)
 
 ## Installation
 
+### Windows
+
+https://developer.hashicorp.com/packer/downloads
+
 ### Linux
+
+#### Ubuntu/Debian
+
 1. Install the latest version for your system:
 ```
 curl -sS https://starship.rs/install.sh | sh
