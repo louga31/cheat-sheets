@@ -13,16 +13,44 @@ Documentation: [Docker Compose Overview](https://docs.docker.com/compose/overvie
 
 COMMAND | DESCRIPTION
 ---|---
-`docker-compose up` | Start services as defined in the `docker-compose.yml` file.
-`docker-compose up -d` | Start services in detached mode, running in the background.
-`docker-compose down` | Stop and remove all the services defined in the `docker-compose.yml` file.
-`docker-compose restart` | Restart services.
-`docker-compose start [service-name]` | Start a specific service.
-`docker-compose stop [service-name]` | Stop a specific service.
-`docker-compose ps` | List containers and their status.
-`docker-compose logs [service-name]` | View logs of a specific service.
-`docker-compose run [service-name] [command]` | Run a one-off command for a specific service.
-`docker-compose exec [service-name] [command]` | Execute a command in a running container of a specific service.
+`docker compose up` | Create and start services.
+`docker compose up -d` | Start services in detached mode.
+`docker compose down` | Stop and remove containers, networks, volumes, and images created by `up`.
+`docker compose restart` | Restart services.
+`docker compose start [service-name]` | Start specific or all services.
+`docker compose stop [service-name]` | Stop specific or all services.
+`docker compose pause [service-name]` | Pause services.
+`docker compose unpause [service-name]` | Unpause services.
+`docker compose ps` | List the status of services.
+`docker compose logs [service-name]` | View the logs.
+`docker compose run [service-name] [command]` | Run a one-off command.
+`docker compose exec [service-name] [command]` | Execute a command inside a running container.
+`docker compose top [service-name]` | Display the running processes.
+`docker compose rm [service-name]` | Remove stopped service containers.
+
+**Configuration**
+
+COMMAND | DESCRIPTION
+---|---
+`docker compose config` | Validate and view the Compose configuration.
+`docker compose pull [service-name]` | Pull service images.
+`docker compose push [service-name]` | Push service images.
+`docker compose build [service-name]` | Build or rebuild services.
+
+**Networking and Volumes**
+
+COMMAND | DESCRIPTION
+---|---
+`docker compose port [service-name] [private-port]` | Print the public port for a port binding.
+`docker compose volume` | Manage volumes.
+
+**Other Commands**
+
+COMMAND | DESCRIPTION
+---|---
+`docker compose --version` | Show the Docker Compose version information.
+`docker compose --help` | Get help on docker compose.
+
 
 ## Networking
 By default Docker-Compose will create a new network for the given compose file. You can change the behavior by defining custom networks in your compose file.
