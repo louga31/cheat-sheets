@@ -11,7 +11,7 @@ TF Registry: [Terraform Registry](https://registry.terraform.io/)
 
 ### Windows
 
-[https://developer.hashicorp.com/packer/downloads](https://developer.hashicorp.com/terraform/downloads)
+https://developer.hashicorp.com/packer/downloads
 
 ### Linux
 
