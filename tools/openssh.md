@@ -5,6 +5,8 @@ OpenSSH is a set of network connectivity tools that provide encrypted communicat
 Project Homepage: [OpenSSH: The Open Source SSH suite](https://www.openssh.com/)
 Documentation: [OpenSSH Manual Pages](https://www.openssh.com/manual.html)
 
+---
+
 ## Known Hosts
 
 Remove Entry from the Known-Hosts File.
