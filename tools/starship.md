@@ -4,6 +4,8 @@ Starship is a minimal, blazing-fast, and infinitely customizable prompt for any 
 Project Homepage: [Starship: Cross-Shell Prompt](https://starship.rs/)
 Documentation: [Configuration | Starship](https://starship.rs/config/)
 
+---
+
 ## Installation
 
 ### Linux
