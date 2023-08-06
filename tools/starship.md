@@ -8,10 +8,6 @@ Documentation: [Configuration | Starship](https://starship.rs/config/)
 
 ## Installation
 
-### Windows
-
-https://developer.hashicorp.com/packer/downloads
-
 ### Linux
 
 #### Ubuntu/Debian
