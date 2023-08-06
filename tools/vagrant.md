@@ -1,4 +1,10 @@
-# Vagrant Cheat-Sheet
+# Vagrant Development Environments
+
+Vagrant is a versatile tool that creates and configures virtualized development environments, making it easier to achieve consistent and reproducible development setups.
+
+Project Homepage: [Vagrant by HashiCorp](https://www.vagrantup.com/)
+Documentation: [Vagrant Docs | Getting Started](https://www.vagrantup.com/docs/)
+
 ## General Management
 COMMAND | DESCRIPTION
 ---|---
