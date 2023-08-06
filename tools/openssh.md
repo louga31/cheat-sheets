@@ -1,4 +1,9 @@
-# OpenSSH
+# OpenSSH Secure Connectivity
+
+OpenSSH is a set of network connectivity tools that provide encrypted communication sessions over a computer network using the SSH protocol. Widely adopted for secure remote login, it has become an essential tool for system administrators and developers to manage servers and automate tasks securely.
+
+Project Homepage: [OpenSSH: The Open Source SSH suite](https://www.openssh.com/)
+Documentation: [OpenSSH Manual Pages](https://www.openssh.com/manual.html)
 
 ## Known Hosts
 
