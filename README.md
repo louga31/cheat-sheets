@@ -1,4 +1,4 @@
-# louga31's "Dotfiles"
+# louga31's "Cheat Sheets"
 
 Hi, there! 👋
 
