@@ -5,6 +5,26 @@ Vagrant is a versatile tool that creates and configures virtualized development 
 Project Homepage: [Vagrant by HashiCorp](https://www.vagrantup.com/)
 Documentation: [Vagrant Docs | Getting Started](https://www.vagrantup.com/docs/)
 
+---
+
+## Installation
+
+### Windows
+
+https://developer.hashicorp.com/vagrant/downloads
+
+### Linux
+
+#### Ubuntu/Debian
+
+```sh
+wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+
+sudo apt update && sudo apt install vagrant
+```
+
 ## General Management
 COMMAND | DESCRIPTION
 ---|---
