@@ -1,4 +1,4 @@
-# OpenSSH Cheat-Sheet
+# OpenSSH
 
 ## Known Hosts
 
