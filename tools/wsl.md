@@ -1,5 +1,9 @@
-# WSL Cheat-Sheet
-## Backup and Restore WSL
+# Windows Subsystem for Linux (WSL)
+
+WSL is a compatibility layer designed by Microsoft that lets you run a genuine Linux distribution natively on Windows 10 and Windows Server 2019. With WSL, developers and system administrators can run Linux tools and applications directly on their Windows machine.
+
+Project Homepage: [About Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/)
+Documentation: [WSL Documentation | Microsoft Docs](https://docs.microsoft.com/en-us/windows/wsl/about)
 
 ### Listing Running Distros
 ```powershell
