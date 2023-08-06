@@ -7,7 +7,12 @@ Documentation: [User Guide | Ansible Documentation](https://docs.ansible.com/ans
 
 ---
 
-## Install Ansible on Ubuntu
+## Installation
+
+### Linux
+
+#### Ubuntu/Debian
+
 1. Install PIP
 ```bash
 sudo apt install python3-pip
