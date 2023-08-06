@@ -5,6 +5,8 @@ WSL is a compatibility layer designed by Microsoft that lets you run a genuine L
 Project Homepage: [About Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/)
 Documentation: [WSL Documentation | Microsoft Docs](https://docs.microsoft.com/en-us/windows/wsl/about)
 
+---
+
 ### Listing Running Distros
 ```powershell
 wsl --list --verbose
