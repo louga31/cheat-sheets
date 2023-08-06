@@ -5,6 +5,8 @@ Ansible is a powerful, simple, and agentless automation tool that streamlines ta
 Project Homepage: [Ansible: Simple IT Automation](https://www.ansible.com/)
 Documentation: [User Guide | Ansible Documentation](https://docs.ansible.com/ansible/latest/user_guide/index.html)
 
+---
+
 ## Install Ansible on Ubuntu
 1. Install PIP
 ```bash
